@@ -10,7 +10,7 @@ namespace Aula20230314_Exercício_2._1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("\t\t--- Exercício 5.1---");
+            Console.WriteLine("\t\t---Exercício 5.1---");
 
             Console.WriteLine("Calculador de IMC");
             Console.Write("Digite seu peso: ");

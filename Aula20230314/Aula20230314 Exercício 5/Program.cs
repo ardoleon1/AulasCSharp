@@ -10,19 +10,19 @@ namespace Aula20230314_Exercício_5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("\t\t--- Exercício 5---");
+            Console.WriteLine("\t\t---Exercício 5---");
 
             Console.Write("Digite o seu salário: ");
             double salario = double.Parse(Console.ReadLine());
             if (salario <= 1500)
             {
-                salario = salario + (salario * (0.23));
-                Console.WriteLine("Seu novo salário é R${0}", salario);
+                salario = salario + (salario * 0.23);
+                Console.WriteLine("Seu novo salário é {0:c2}", salario);
             }
             else
             {
-                salario = salario + (salario * (0.18));
-                Console.WriteLine("Seu novo salário é R${0}", salario);
+                salario = salario + (salario * 0.18);
+                Console.WriteLine("Seu novo salário é {0:c2}", salario);
             }
 
             Console.ReadLine();

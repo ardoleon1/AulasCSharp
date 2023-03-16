@@ -10,7 +10,7 @@ namespace Aula202303014_Exercício_3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("\t\t--- Exercício 3---");
+            Console.WriteLine("\t\t---Exercício 3---");
 
             Console.Write("Digite seu nome: ");
             string nome = Console.ReadLine();

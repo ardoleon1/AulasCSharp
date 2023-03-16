@@ -10,7 +10,7 @@ namespace Aula20230314_Exercício_2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("\t\t--- Exercício 2---");
+            Console.WriteLine("\t\t---Exercício 2---");
             Console.WriteLine("\t Escreva três números inteiros e retornará o maior");
 
             Console.Write("Digite o valor do primeiro número: ");

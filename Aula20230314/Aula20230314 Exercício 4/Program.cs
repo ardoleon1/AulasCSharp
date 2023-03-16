@@ -10,7 +10,7 @@ namespace Aula20230314_Exercício_4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("\t\t--- Exercício 4---");
+            Console.WriteLine("\t\t---Exercício 4---");
 
             Console.Write("Digite o nome da primeira pessoa: ");
             string pessoa1 = Console.ReadLine();
