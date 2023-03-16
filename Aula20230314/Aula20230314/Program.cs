@@ -10,7 +10,7 @@ namespace Aula20230314
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("\t\t---Verifica se um número é par ou ímpar---");
+            Console.WriteLine("\t\t---Exercício 1---");
             Console.Write("\nInforme um número: ");
             int num = int.Parse(Console.ReadLine());
 
