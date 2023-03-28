@@ -12,15 +12,15 @@ namespace Aula20230321_Exercício_2__Switch_Case_
         {
             Console.WriteLine("\t\t---Exercício 2---");
 
-            Console.WriteLine("\nDigite seu nome: ");
+            Console.Write("\nDigite seu nome: ");
             string nome = Console.ReadLine();
-            Console.WriteLine("Digite a nota do 1º Bimestre: ");
+            Console.Write("Digite a nota do 1º Bimestre: ");
             int nota1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Digite a nota do 2º Bimestre: ");
+            Console.Write("Digite a nota do 2º Bimestre: ");
             int nota2 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Digite a nota do 3º Bimestre: ");
+            Console.Write("Digite a nota do 3º Bimestre: ");
             int nota3 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Digite a nota do 4º Bimestre: ");
+            Console.Write("Digite a nota do 4º Bimestre: ");
             int nota4 = int.Parse(Console.ReadLine());
             int notaMedia = (nota1 + nota2 + nota3 + nota4) / 4;
 
@@ -61,11 +61,7 @@ namespace Aula20230321_Exercício_2__Switch_Case_
             switch (Conceito)
             {
                 case 'A':
-                    Console.WriteLine("Olá {0}! Sua nota é {1} e você está aprovado", nome, Conceito);
-                    break;
                 case 'B':
-                    Console.WriteLine("Olá {0}! Sua nota é {1} e você está aprovado", nome, Conceito);
-                    break;
                 case 'C':
                     Console.WriteLine("Olá {0}! Sua nota é {1} e você está aprovado", nome, Conceito);
                     break;
