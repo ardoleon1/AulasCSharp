@@ -16,9 +16,9 @@ namespace Aula20230411_Exercício_2
             int nota1, nota2, nota3, nota4, notaMedia, notaTurma = 0, notaTotal, discenteFinal;
             discenteFinal = discente;
             Console.Clear();
+            Console.WriteLine("\t\t---Exercício 2---");
             while (discenteFinal != 0)
             {
-                Console.WriteLine("\t\t---Exercício 2---");
                 Console.Write("Digite a nota do 1º Bimestre: ");
                 nota1 = int.Parse(Console.ReadLine());
                 Console.Write("Digite a nota do 2º Bimestre: ");
@@ -28,7 +28,7 @@ namespace Aula20230411_Exercício_2
                 Console.Write("Digite a nota do 4º Bimestre: ");
                 nota4 = int.Parse(Console.ReadLine());
                 notaMedia = (nota1 + nota2 + nota3 + nota4) / 4;
-                Console.WriteLine("A média deste discente é {0}", notaMedia);
+                Console.WriteLine("A média deste discente é {0}\n", notaMedia);
                 notaTurma = notaTurma + notaMedia;
                 discenteFinal--;
             }
