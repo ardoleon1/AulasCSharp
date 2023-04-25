@@ -14,7 +14,7 @@ namespace Aula20230425_do_While_Exercício_2
             string resposta = "SIM";
             do
             {
-                Console.WriteLine("Data: "+DateTime.Now.ToString("dd-mm-aaaa"));
+                Console.WriteLine("Data: "+DateTime.Now.ToString("dd-MM-yyyy"));
 
                 Console.WriteLine("\n\t\t---Qual é a melhor série de todos os tempos?");
                 Console.WriteLine("\n\t[1]The Big Bang Theory \n\t[2]Game of Thrones\n\t[3]The Glory\n\t[4]Outras\n\tNão sei!");
