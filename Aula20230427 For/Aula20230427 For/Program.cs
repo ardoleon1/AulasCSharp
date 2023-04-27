@@ -16,7 +16,7 @@ namespace Aula20230427_For
 
             for (int i = 0; i < 10; i++)
             {
-                Console.WriteLine("\t\t---Exercício 1 - Calcula o reajuste salarial---");
+                Console.WriteLine("\t\t---Exercício 1---");
 
                 double salario, reajuste, novoSalario;
 
