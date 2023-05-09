@@ -15,7 +15,7 @@ namespace Aula20230509_Exercício
             decimal numero = 1;
             for (int i = 1; i <=64; i++)
             {
-                Console.WriteLine("Casa: " + i + "\nSoma: " + numero.ToString("n2") + "\n");
+                Console.WriteLine("Casa: " + i + "\nSoma: " + numero.ToString("n0") + "\n");
                 numero = numero * 2;
             }
 
