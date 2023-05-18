@@ -11,12 +11,22 @@ namespace Aula20230516_Exercício_2
         static void Main(string[] args)
         {
             Console.WriteLine("\t\t---Exercício 2---");
-            Console.Write("\nDigite a sua data de Nascimento (Obs.: no formato dd/mm/yyyy): ");
+            Console.Write("Digite a sua data de Nascimento (Obs.: no formato dd/mm/yyyy): ");
             DateTime dtNascimento = DateTime.Parse(Console.ReadLine());
-
-            if ()
+            
+            var idade = CalcularIdade(dtNascimento);
+            Console.WriteLine("Você tem {0} anos", idade);
 
             Console.ReadLine();
+        }
+        static int CalcularIdade(DateTime dtNascimento)
+        {
+            var idade = DateTime.Today.Year - dtNascimento.Year;
+            if (DateTime.Today.DayOfYear < dtNascimento.DayOfYear)
+            {
+                idade = idade - 1;
+            }
+            return idade;
         }
     }
 }
