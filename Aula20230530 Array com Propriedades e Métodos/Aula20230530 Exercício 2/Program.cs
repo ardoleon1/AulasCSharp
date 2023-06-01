@@ -18,14 +18,12 @@ namespace Aula20230530_Exercício_2
             while(i < x.Length)
             {
                 Console.Write("Informe o {0}º valor: ", i + 1);
-                int valor = int.Parse(Console.ReadLine());
-
-                x[i] = valor;
+                x[i] = int.Parse(Console.ReadLine());
                 i++;
             }
             int[] y = (int[]) x.Clone();
             Array.Reverse(y);
-            Console.WriteLine("\n\t\t---Imprimindo os valores na tela---");
+            Console.WriteLine("\n\t\t---Imprimindo os valores do Array Y---");
             foreach (var item in y)
             {
                 Console.WriteLine(item);
