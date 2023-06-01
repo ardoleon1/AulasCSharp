@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula20230530 Array com Propriedades e Métodos", "Aula20230530 Array com Propriedades e Métodos\Aula20230530 Array com Propriedades e Métodos.csproj", "{CC304648-9D33-492A-9797-34684F1AEB51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula20230530 Exercício 2", "Aula20230530 Exercício 2\Aula20230530 Exercício 2.csproj", "{EC3F657A-2952-488E-87BE-BA0833A637DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CC304648-9D33-492A-9797-34684F1AEB51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC304648-9D33-492A-9797-34684F1AEB51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC304648-9D33-492A-9797-34684F1AEB51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC3F657A-2952-488E-87BE-BA0833A637DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC3F657A-2952-488E-87BE-BA0833A637DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC3F657A-2952-488E-87BE-BA0833A637DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC3F657A-2952-488E-87BE-BA0833A637DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
